@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    overflow: hidden;
+    position: relative;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
